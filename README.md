@@ -6,9 +6,9 @@ Auth Api
 ## How to run
 
 ``` bash
-virtualenv -p python3 venv
-source venv/bin/activate
-pip install -r requirements.txt
+virtualenv -p python3 envname
+source envname/bin/activate
+pip3 install -r requirements.txt
 ```
 
 # Enviromment variables
@@ -24,5 +24,5 @@ JWT_SECRET_KEY=test
 DB=postgresql://postgres:password@0.0.0.0:5432
 
 ``` bash
-flask run --port=8500 --host=0.0.0.0
+env FLASK_APP=run.py flask run --port=8500 --host=0.0.0.0
 ```

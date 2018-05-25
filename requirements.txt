@@ -3,5 +3,6 @@ flask-restful
 flask-jwt-extended
 passlib
 flask-sqlalchemy
-psycopg2
+pycpfcnpj
 requests
+psycopg2==2.7.4
